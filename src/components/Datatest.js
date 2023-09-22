@@ -82,7 +82,7 @@ const Datatest = () => {
                 <Card.Text>
                   {attraction.detail}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Go anywhere</Button>
               </Card.Body>
             </Card>
           </Col>
