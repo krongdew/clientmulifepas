@@ -1,0 +1,47 @@
+/* ในไฟล์ CSS ของคุณ */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* ในไฟล์ CSS ของคุณ */
+@media (max-width: 768px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+/* ในไฟล์ CSS ของคุณ */
+/* สำหรับมือถือ */
+.mobile-image {
+    display: block;
+  }
+  
+  /* สำหรับเดสก์ท็อป */
+  .desktop-image {
+    display: block;
+  }
+  
+  /* Media query สำหรับหน้าจอเดสก์ท็อป */
+  @media (min-width: 769px) {
+    .mobile-image {
+      display: none;
+    }
+  
+    .desktop-image {
+      display: block;
+    }
+  }
+  
+  
+  
+  
+  
